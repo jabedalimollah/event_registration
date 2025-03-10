@@ -31,8 +31,8 @@ export default function Register() {
     );
     setData(response?.data);
     setDialogBox(true);
-    console.log(response?.data?.data);
-    console.log(response?.data?.message);
+    // console.log(response?.data?.data);
+    // console.log(response?.data?.message);
     // toast.success(res.data.message, {
     //   position: "top-center",
     // });
