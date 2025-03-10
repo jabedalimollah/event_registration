@@ -19,7 +19,7 @@ const registration = asyncErrorHandler(async (req, res) => {
     throw new ApiError(400, "error", "email already exists");
   } else {
     const registrationId = nanoid(10);
-    console.log(registrationId);
+    // console.log(registrationId);
     const newRegistration = new Registration({
       name,
       email,
